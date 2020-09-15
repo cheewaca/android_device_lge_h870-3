@@ -24,6 +24,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from h870 device
 $(call inherit-product, device/lge/h870/device.mk)
 
+# Boot animation resolution
+TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2880
+
 # Security patch level
 PLATFORM_SECURITY_PATCH_OVERRIDE := 2019-05-01
 	
